@@ -163,27 +163,42 @@ html, body {
 }
 
 
-.tomato_card_wrapper {
+.card_wrapper {
   position: absolute;
   width: 821px;
-  height: 159px;
-  left: 96px;
-  top: 301px;            /* убрать margin у body*/
+  height: 159px;           /* убрать margin у body*/
   background-color: #FAFAF5;
   border-radius: 24px;
   border: 1px solid #E6E6E6;
 }
-.tomato_card_wrapper img {
+
+.tomato_card_wrapper_location {
+    left: 96px;
+    top: 301px;  
+}
+
+
+.ginger_card_wrapper_location {
+    top: 491px;
+    left: 96px;
+}
+
+.onion_card_wrapper_location {
+    top: 681px;
+    left: 96px;
+}
+
+
+.card_wrapper img {
  height: 160px;  
  width: 160px;
  border-radius: 24px 0 0 24px;
- 
 }
 
 
 
 
-.tomato_paragrath {
+.card_title_wrapper {
     position: absolute;
     width: 162px;
     height: 26px;
@@ -193,7 +208,11 @@ html, body {
 }
 
 
-.tomato_paragrath p {
+
+
+
+
+.card_title_wrapper p {
     margin: 0;
     text-align: left;
     /* font-family: Inter;
