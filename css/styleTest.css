@@ -1,0 +1,258 @@
+body {
+   margin: 0;
+  
+}
+.header {
+    width: 100%;
+    height: 112px;
+    padding-left: 96px;
+    padding-top: 40px;
+    margin-bottom: 167px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin-top: 0;
+}
+
+.promo {
+  
+  width: 151px;
+  height: 32px;
+  margin-right: 497px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.green-text {
+    color: #426B1F;
+    font-family: 'Newsreader', serif;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+
+
+.head {
+    display: inline-block;
+    margin-right: 48px;
+    height: 21px;
+    vertical-align: middle;
+    /* text-align: center; */
+    font-weight: 400;
+    /* align-items: center; */
+} 
+
+.shop {
+
+ 
+ width: 39px;
+
+
+}
+
+.newstand {
+   
+    width: 77px;
+   
+   
+   }
+
+
+ .who_we_are {
+ 
+    width: 90px;
+  
+}
+
+.my_profile { 
+
+  width: 76px;
+  display: inline-block;
+}  
+
+
+
+.basket {
+    display: inline-block;
+    width: 126px;
+    height: 48px;
+    vertical-align: middle;
+} 
+
+.basket_btn {
+    width: 126px;
+    height: 48px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #426B1F;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 600;
+    border: none;
+    padding: 0;
+}
+
+/* img {
+    width: 126px;
+    height: 48px;
+   
+} */
+
+
+/* .header-link {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+} */
+
+.mouseIn {
+   text-decoration: underline;
+   text-decoration-color: red;
+
+}
+
+
+
+
+
+
+/* .basket_text {
+
+} */
+
+.farmers {
+    /* position: absolute; */
+  width: 1020px;
+  height: 154px;
+  
+   /* margin: 0 auto; */
+   margin-left: 210px;
+   margin-right: 210px;
+   margin-bottom: 48px;
+}
+.farmers_text {
+    text-align: center;
+  font-family: 'Newsreader', serif;
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* .btn_div {
+    margin-top: 48px;
+    margin-left: 607px;
+    margin-right: 606px;
+} */
+
+
+.browse_btn_wrapper {
+    width: 227px;
+    height: 64px;
+    margin-left: 607px;
+    margin-right: 606px;
+    
+    margin-bottom: 156px;
+} 
+
+.browse_btn {
+    
+    width: 227px;
+    height: 64px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #426B1F;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 130%;
+    font-weight: 600;
+   
+}
+
+
+
+.vegetables {
+    position: relative;
+    width: 100%;
+    height: 693px;
+}
+
+.vegetable1 {
+    position: absolute;
+   width: 504px;
+   height: 693px;
+   margin-left: 96px;
+   margin-right: 60px;
+}
+
+
+.vegetable2 {
+    position: absolute;
+    left: 660px;
+    width: 780px;
+    height: 480px;
+    margin-top: 92px;
+    margin-bottom: 16px;
+}
+
+
+.california_text_wrapper {
+    position: absolute;
+    width: 736px;
+    height: 44px;
+    left: 660px;
+    top: 588px;
+}
+.california_text {
+    font-family: "Inter";
+    line-height: 160%;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+.believe_wrapper {
+    position: absolute;
+    top: 1557px;
+    left: 96px;
+}
+
+
+.our_product_wrapper {
+    position: absolute;
+    top: 1550px;
+    left: 309px;
+    width: 822px;
+    height: 512px;
+    
+}
+
+
+
+.inter {
+    font-family: "Inter";
+    
+    line-height: 160%;
+    font-size: 16px;
+    
+}
+
+.size {
+    font-size: 20px;
+}
+
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}

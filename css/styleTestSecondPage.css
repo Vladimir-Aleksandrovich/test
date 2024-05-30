@@ -1,0 +1,439 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 112px;
+}
+.label {
+    position: absolute;
+    width: 151px;
+    height: 32px;
+    top: 40px;
+    left: 96px;
+    
+}
+.label_text {
+    margin: 0;
+    color: #426B1F;
+    font-family: 'Newsreader', serif;
+    font-size: 32px;
+}
+
+
+.shop {
+    width: 39px;
+    left: 744px;
+}
+
+.newstand {
+    width: 77px;
+    left: 831px;
+}
+
+.who_we_are {
+    width: 90px;
+    left: 956px;
+}
+
+
+
+
+.my_profile {
+ width: 76px;
+ left: 1094px;
+}
+
+.head {
+    position: absolute;
+    top: 45.5px;
+    height: 21px;
+}
+
+.basket {
+    position: absolute;
+    width: 126px;
+    height: 48px;
+    left: 1218px;;
+    top: 32px;
+
+
+}
+.basket_btn {
+  
+    width: 126px;
+    height: 48px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #426B1F;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 600;
+    
+     border: none;
+     padding: 0;
+   /*
+    background-image: url('../img/Cart button.png');
+ 
+ background-size: cover; */
+   
+   
+   
+
+ 
+}
+
+
+
+
+.inter_header {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 130%;
+    color: black;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+
+
+
+.basket_box_wrapper {
+    position: relative;
+    width: 1440px;
+    height: 149px;
+    top: 112px;
+}
+
+
+.basket_header_container {
+    position: absolute;
+    left: 96px;
+    top: 56px;
+    width: 181px;
+    height: 77px;
+   
+}
+.basket_header_container p {
+   
+  font-family: Newsreader;
+  width: auto;
+  font-size: 64px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 77px;
+  
+  
+ 
+}
+.items {
+    position: absolute;
+   
+    left: 301px;
+    top: 90px;
+    width: 69px;
+    height: 26px;
+    
+}
+
+.items p {
+    margin: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+
+
+.divider {
+    position: absolute;
+    width: 1248px;
+    top: 149px;
+    left: 96px;
+    margin: 0;
+}
+
+
+.tomato_card_wrapper {
+  position: absolute;
+  width: 821px;
+  height: 159px;
+  left: 96px;
+  top: 301px;            /* убрать margin у body*/
+  background-color: #FAFAF5;
+  border-radius: 24px;
+  border: 1px solid #E6E6E6;
+}
+.tomato_card_wrapper img {
+ height: 160px;  
+ width: 160px;
+ border-radius: 24px 0 0 24px;
+ 
+}
+
+
+
+
+.tomato_paragrath {
+    position: absolute;
+    width: 162px;
+    height: 26px;
+    text-align: center;
+    top: 24px;
+    left: 184px;
+}
+
+
+.tomato_paragrath p {
+    margin: 0;
+    text-align: left;
+    /* font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%; */
+}
+
+.price {
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    left: 184px;
+    top: 54px;
+    color: #426B1F;
+    /* font-style: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%; */
+   
+}
+
+.price p {
+    margin: 0;
+}
+
+
+.lb_price {
+  position: absolute;
+  width: 57px;
+  height: 26px;
+  left: 740px;
+  top: 24px;
+}
+
+
+.lb_price p {
+    margin: 0;
+}
+
+
+.inter_card {
+    font-style: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+
+.input {
+    position: absolute;
+    top: 95px;
+    left: 184px;
+    
+    width: 128px;
+    height: 40px;
+}
+
+
+.input_field {
+    border-radius: 20px;
+    width: 128px;
+    height: 40px;
+    border: 1px, solid, black;
+    padding-left: 16px;
+    background: url(../img/Icon.png) no-repeat center right;
+    font-style: Inter;
+    font-weight: 500;
+    font-size: 16px;
+ 
+}
+
+.summary_box {
+  position: absolute;
+  width: 395px;
+  height: 318px;
+  top: 301px;
+  left: 949px;
+  border-radius: 24px;
+  background-color:#FAFAF5;
+  stroke: #E6E6E6;
+  border: 1px solid #E6E6E6;
+}
+
+
+.summary_box p {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.order_summary {
+   position: absolute;
+   width: 151px;
+   height: 26px;
+   top: 24px;
+   left: 24px;
+}
+
+.order_summary p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+
+.subtotal {
+   position: absolute;
+   width: 64px;
+   height: 21px;
+   top: 82px;
+   left: 24px;
+}
+
+.subtotal_cost {
+    position: absolute;
+    width: 52px;
+    height: 21px;
+    top:82px;
+    left: 319px;
+}
+
+
+.shipping {
+   position: absolute;
+   width: 66px;
+   height: 21px;
+   top: 119px;
+   left: 24px;
+}
+
+
+.shipping_cost {
+    position: absolute;
+    width: 45px;
+    height: 21px;
+    top: 119px;
+    left: 326px;
+}
+
+.tax {
+    position: absolute;
+    width: 27px;
+    height: 21px;
+    top: 156px;
+    left: 24px;
+}
+
+
+.tax_cost {
+    position: absolute;
+    width: 44px;
+    height: 21px;
+    top: 156px;
+    left: 327px;
+}
+
+.total {
+    position: absolute;
+    width: 39px;
+    height: 21px;
+    top: 194px;
+    left: 24px;
+}
+
+.total_cost {
+    position: absolute;
+    width: 57px;
+    height: 21px;
+    top: 194px;
+    right: 24px;
+    
+}
+
+.total_cost p {
+    font-weight: 600;
+}
+
+.total p {
+    font-weight: 600;
+}
+
+.payment_wrapper {
+    position: absolute;
+    width: 347px;
+    height: 48px;
+    top: 246px;
+    left: 24px;
+}
+
+.payment_btn {
+    position: absolute;
+    
+   
+    width: 347px;
+    height: 48px;
+    background-color: #426B1F;
+    border-radius: 8px;
+    color: #ffffff;
+    text-align: left;
+    border: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 24px;
+}
+
+/* .payment_title {
+    position: absolute;
+    width: 163px;
+    height: 21px;
+    left: 24px;
+    top: 14px;
+    z-index: 1;
+} 
+.payment_title p {
+    margin: 0;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 600px;
+    color: #ffffff;
+} */
+
+.payment_img {
+    position: absolute;
+    left: 299px;
+    top: 8px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    
+}
+.payment_img p {
+    margin: 0;
+    color: #ffffff;
+    line-height: 32px;
+}
+
